@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(z2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.tickets button {
+    background-color: orange;
+    color: #172321;
+    padding: 16px 24px;
+    border: 2.5px solid wwhite;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    padding: 16px 24px;
+    cursor: pointer;
+}
+
+.heading h1 {
+    color: white;
+}
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%) ;
+}
+
+.hero h2 {
+    font-family: 'Times New Roma  n', Times, serif;
+    font-size: 90px;
+    font-weight: bold;
+    color: orange;
+}
+
+.hero h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    color: white;
+}
+
+.hero p {
+    font-family: serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    max-width: 400px;
+    margin: 20px;
+    
+}
